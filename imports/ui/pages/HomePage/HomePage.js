@@ -174,7 +174,7 @@ const LandingPage = ({ classes, history, theme }) => {
               name="github"
               aria-label="Open Github"
               color="inherit"
-              href="https://github.com/TarikHuber/react-most-wanted"
+              href="https://github.com/Arles96/Meteor-React-MaterialUi/tree/master"
               target="_blank"
               rel="noopener"
             >
@@ -197,7 +197,7 @@ const LandingPage = ({ classes, history, theme }) => {
                 gutterBottom
                 className={classes.title}
               >
-                {'REACT MOST WANTED'}
+                {'METEOR REACT MATERIAL UI'}
               </Typography>
               <Typography variant="h5" component="h2" color="inherit" gutterBottom className={classes.h5}>
                 {'React Starter-Kit with all Most Wanted features.'}
