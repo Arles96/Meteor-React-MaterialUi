@@ -1,13 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import HomePage from '../ui/pages/HomePage/HomePage';
-import Login from '../ui/pages/Login/Login';
+import HomePage from '../../ui/pages/HomePage/HomePage';
 
 const App = () => (
   <BrowserRouter>
     <React.Fragment>
       <Route exact path="/" component={HomePage} />
-      <Route exact path="/login" component={Login} />
     </React.Fragment>
   </BrowserRouter>
 );
